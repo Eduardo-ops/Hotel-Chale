@@ -80,12 +80,13 @@ body{
     border-bottom: 1px solid #b5ab56;
     padding: 8px 0 8px 0;
     font-size: 0.7em;
-    color: #8b8448;
 }
 
 /* Elemento com classe "locais dentro de um elemento com id "menu-locais"*/
-#menu-locais.locais{
+#menu-locais a.locais{
     float: left;
+    text-decoration: none;
+    color: #8b8448;
 }
 
 /* Elemento <a> com classe "reservar"*/
