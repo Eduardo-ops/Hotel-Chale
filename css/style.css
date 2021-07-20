@@ -78,11 +78,11 @@ body{
 #menu-locais{
     border-top: 1px solid #b5ab56;
     border-bottom: 1px solid #b5ab56;
-    padding: 8px 0 8px 0;
+    padding: 10px 0 10px 0;
     font-size: 0.7em;
 }
 
-/* Elemento com classe "locais dentro de um elemento com id "menu-locais"*/
+/* Elemento <a> com classe "locais" dentro de um elemento com id "menu-locais"*/
 #menu-locais a.locais{
     float: left;
     text-decoration: none;
@@ -93,10 +93,10 @@ body{
 a.reservar{
     text-transform: uppercase;
     background: #a29750;
-    border-radius: 5px;
+    border-radius: 2px;
     text-decoration: none;
     color: #fff5b0;
-    padding: 5px 10px;
+    padding: 7px 12px;
     margin-left: 30px;
 }
 
