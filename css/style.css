@@ -66,3 +66,19 @@ body{
     right: 0;
     z-index: 2;
 }
+
+/* Elemento com id "menu-locais" */
+#conteudo-menu{
+    margin: 15px 0 0 90px;
+    padding: 15px;
+
+}
+
+#menu-locais{
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    padding: 5px 0 5px 0;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
