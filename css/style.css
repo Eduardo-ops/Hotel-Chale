@@ -138,27 +138,43 @@ ul#navegacao a:hover{
     width: 210px;
     height: 164px;
 }
+
+/* Elemento com id "area-principal" */
 #area-principal{
     float: left;
     width: 50%;
     background: url(../imagens/bg-area-principal.png) top left repeat-x;
 }
 
+/* Elemento com id "area-lateral" */
 #area-lateral{
     float: right;
     width: 50%;
     background: url(../imagens/bg-area-lateral.png) top left repeat-x;
 }
 
+/* Elemento com classe "conteudo" */
 .conteudo{
     margin: 0 auto;
     padding: 15px;
 }
 
+#area-principal h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+#area-principal p{
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #2F4F4F;
+}
+
 /* Elemento coom id "container-rodape" */
 #container-rodape{
     clear: both;
-    background: #ede7b2;
+    /* background: #ede7b2; */
     text-align: center;
 }
 
