@@ -153,6 +153,20 @@ ul#navegacao a:hover{
     font-size: 1.1em;
 }
 
+#area-principal{
+    float: left;
+    width: 50%;
+}
+
+#area-lateral{
+    float: right;
+    width: 50%;
+}
+
+.conteudo{
+    margin: 0 auto;
+}
+
 /* Elemento com classe "empresa-dev" */
 .empresa-dev{
     color: #6e672c;
