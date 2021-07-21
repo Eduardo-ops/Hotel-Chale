@@ -131,3 +131,9 @@ ul#navegacao a{
 ul#navegacao a:hover{
     background: #ede7b2;
 }
+
+.logo-II{
+    float: right;
+    width: 210px;
+    height: 164px;
+}
