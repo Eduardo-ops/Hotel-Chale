@@ -143,6 +143,7 @@ ul#navegacao a:hover{
 #container-rodape{
     clear: both;
     background: #ede7b2;
+    text-align: center;
 }
 
 /* Elemento com id "rodape" */
@@ -150,4 +151,10 @@ ul#navegacao a:hover{
     padding: 30px;
     color: #6e672c;
     font-size: 1.1em;
+}
+
+/* Elemento com classe "empresa-dev" */
+.empresa-dev{
+    color: #6e672c;
+    font-size: 0.8em;
 }
