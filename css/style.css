@@ -13,7 +13,7 @@ body{
 
 /* Elemento com id "container" */
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 720px;
     max-width: 1180px;
@@ -138,6 +138,22 @@ ul#navegacao a:hover{
     width: 210px;
     height: 164px;
 }
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+}
+
+#area-lateral{
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+}
+
+.conteudo{
+    margin: 0 auto;
+    padding: 15px;
+}
 
 /* Elemento coom id "container-rodape" */
 #container-rodape{
@@ -146,25 +162,12 @@ ul#navegacao a:hover{
     text-align: center;
 }
 
+
 /* Elemento com id "rodape" */
 #rodape{
     padding: 30px;
     color: #6e672c;
     font-size: 1.1em;
-}
-
-#area-principal{
-    float: left;
-    width: 50%;
-}
-
-#area-lateral{
-    float: right;
-    width: 50%;
-}
-
-.conteudo{
-    margin: 0 auto;
 }
 
 /* Elemento com classe "empresa-dev" */
