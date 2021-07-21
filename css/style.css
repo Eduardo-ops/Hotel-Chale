@@ -100,3 +100,34 @@ a.reservar{
     margin-left: 30px;
 }
 
+/* Elemento com id "barra-navegacao-menu" */
+#barra-navegacao-menu{
+    margin-top: 15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Elemento <ul> com id "navegacao" */
+ul#navegacao{
+    float: left;
+}
+
+/* Elemento <a> dentro de elemento <ul> com id "navegacao" */
+ul#navegacao a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6e672c;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 5px;
+    display: block;
+}
+
+/* Elemento <a> em estado de hover, dentro de elemento <ul> com id "navegacao" */
+ul#navegacao a:hover{
+    background: #ede7b2;
+}
