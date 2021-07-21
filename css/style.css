@@ -8,7 +8,7 @@
 body{
     font-family: Trebuchet MS, sans-serif;
     background: #fff url(/imagens/bg.png);
-    margin: 15px;
+    margin-top: 15px;
 }
 
 /* Elemento com id "container" */
@@ -137,4 +137,17 @@ ul#navegacao a:hover{
     float: right;
     width: 210px;
     height: 164px;
+}
+
+/* Elemento coom id "container-rodape" */
+#container-rodape{
+    clear: both;
+    background: #ede7b2;
+}
+
+/* Elemento com id "rodape" */
+#rodape{
+    padding: 30px;
+    color: #6e672c;
+    font-size: 1.1em;
 }
