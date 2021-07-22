@@ -139,6 +139,8 @@ ul#navegacao a:hover{
     height: 164px;
 }
 
+/* AREA DO CONTEÚDO PRINCIPAL */
+
 /* Elemento com id "area-principal" */
 #area-principal{
     float: left;
@@ -159,21 +161,53 @@ ul#navegacao a:hover{
     padding: 15px;
 }
 
+/* Elemento <h2> dentro de elemento com id "area-principal" */
 #area-principal h2{
     color: #7d7640;
     font-size: 1.1em;
     padding: 5px 0;
 }
 
+/* Elemento <p> dentro de elemento com id "area-principal" */
 #area-principal p{
     font-size: 1em;
     margin-bottom: 10px;
     color: #2F4F4F;
 }
 
-.imagem-lista{
-    width: 150px;
+/* AREA DO CONTEÚDO LATERAL */
+
+/* Elemento <li> dentro de elemento com id "area-lateral" */
+#area-lateral li{
     height: 120px;
+    padding: 10px;
+}
+
+/* Elemento <li> em estado de hover dentro de elemento com id "area-lateral" */
+#area-lateral li:hover{
+    background: #fff;
+}
+
+/* Elemento <img> com classe "imagem-lista" */
+.imagem-lista{
+    float: left;
+    width: 180px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+/* Elemento <h3> dentro de elemento com id "area-lateral" */
+#area-lateral h3{
+    font-size: 1.1em;
+    color: #7d7640;
+    margin: 5px;
+}
+
+/* Elemento <a> dentro de elemento com id "area-lateral" */
+#area-lateral a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #000;
 }
 
 /* RODAPE */
