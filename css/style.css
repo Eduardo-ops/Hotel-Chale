@@ -171,6 +171,13 @@ ul#navegacao a:hover{
     color: #2F4F4F;
 }
 
+.imagem-lista{
+    width: 150px;
+    height: 120px;
+}
+
+/* RODAPE */
+
 /* Elemento coom id "container-rodape" */
 #container-rodape{
     clear: both;
