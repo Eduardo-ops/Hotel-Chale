@@ -194,16 +194,20 @@ ul#navegacao a:hover{
     margin-right: 10px;
 }
 
+/* Elemento <a> com id "beneficios" */
+#beneficios a{
+    text-decoration: none;
+}
+
 /* Elemento <h3> dentro de elemento com id "beneficios" */
-#beneficios h3{
+#beneficios a h3{
     font-size: 1.1em;
     color: #7d7640;
     margin: 5px;
 }
 
 /* Elemento <a> dentro de elemento com id "beneficios" */
-#beneficios a{
-    text-decoration: none;
+#beneficios a p{
     font-size: 0.9em;
     color: #000;
 }
