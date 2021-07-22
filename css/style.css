@@ -176,8 +176,9 @@ ul#navegacao a:hover{
 
 /* Elemento <li> dentro de elemento com id "area-lateral" */
 #area-lateral li{
-    height: 120px;
+    height: 8em;
     padding: 10px;
+    border-bottom: 1px solid #fff;
 }
 
 /* Elemento <li> em estado de hover dentro de elemento com id "area-lateral" */
